@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var a = 1, b = 1, c, d;
+        c = ++a; alert(c);           // 2 : а увеличивается на 1( а = 2), потом присваевается с
+        d = b++; alert(d);           // 1 : d присваевается 1, потом b увеличивается на 1 (b = 2)
+        c = (2 + ++a); alert(c);      // 5 : тут а увеличивается на 1 ( а = 3), с = (2 + a)т.е. 5
+        d = (2 + b++); alert(d);      // 4 : сначала вычисляется выражение в скобках d = (2 + 2), потом b увеличивается на 1 (b = 3)
+        alert(a);                    // 3 :
+        alert(b);                    // 3 :
+
+
+
+    </script>
+</body>
+
+</html>
